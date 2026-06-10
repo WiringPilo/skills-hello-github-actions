@@ -1,0 +1,7 @@
+name: Primer Flujo de Trabajo
+on: pull_request
+jobs:
+  ejecutar_prueba:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "El flujo de trabajo se ha ejecutado correctamente"
